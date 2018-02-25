@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="முகப்பு/முன் பக்கம்"
+          android:id="@+id/home"
+          android:icon="@drawable/home_inactive"/>
+
+    <item android:title="என் கவனத்திற்கு"
+        android:id="@+id/inbox"
+        android:icon="@drawable/inbox"/>
+
+
+    <item android:title=" என்னைப் பற்றி"
+        android:id="@+id/pro"
+        android:icon="@drawable/draft"/>
+
+
+    <item android:title="நினைவூட்டல்"
+          android:id="@+id/notify"
+          android:icon="@drawable/sidemenu_feedback_inactive"/>
+
+    <item android:title=" ஆலோசனைக்கு"
+          android:id="@+id/feedback"
+          android:icon="@drawable/t_c"/>
+
+    <item android:title="தொடர்புக்கு"
+        android:icon="@drawable/sidemenu_contactus"
+        android:id="@+id/contact"/>
+
+    <item android:title="இணையம்"
+        android:icon="@drawable/inbox"
+        android:id="@+id/web"/>
+
+    <item android:title="கலந்துரையாடல்"
+        android:icon="@drawable/sidemenu_contactus"
+        android:id="@+id/chat"/>
+
+    <item android:title="வெற்றிபெற்றவர் பட்டியல்
+"
+        android:icon="@drawable/help"
+        android:id="@+id/help"/>
+
+
+
+
+
+
+
+</menu>

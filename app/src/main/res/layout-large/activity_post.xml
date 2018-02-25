@@ -1,0 +1,198 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D9191E"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="இஸ்லாம் குயிஸ் (IQ)" />
+
+    <android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/drawerLayout"
+        >
+
+
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/containerView">
+     </FrameLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+
+
+            android:layout_width="fill_parent"
+            android:padding="10dp"
+            android:layout_height="fill_parent">
+
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:id="@+id/imageButton"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:background="@drawable/q"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <View
+                android:layout_width="1dp"
+                android:layout_marginLeft="@dimen/_155sdp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/_190sdp"
+                android:layout_marginBottom="@dimen/_120sdp"
+
+                android:background="#FFFFFF"
+                android:id="@+id/view1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="இன்றைய கேள்வி"
+                android:id="@+id/textView"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16sdp"
+
+                android:layout_below="@+id/imageButton"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:id="@+id/imageButton2"
+                android:background="@drawable/ststus"
+                android:layout_above="@+id/textView1"
+                android:layout_alignRight="@+id/textView6"
+                android:layout_alignEnd="@+id/textView6" />
+
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+
+                android:background="#FFFFFF"
+                android:id="@+id/view2"
+                android:layout_marginRight="100dp"
+                android:layout_below="@+id/textView"
+
+                />
+            <View
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="1dp"
+
+                android:background="#FFFFFF"
+                android:layout_below="@+id/view2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/view3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" என் பதில்கள் "
+                android:id="@+id/textView1"
+                android:textColor="#FFFFFF"
+
+                android:textSize="@dimen/_16sdp"
+                android:layout_alignBottom="@+id/textView"
+                android:layout_alignRight="@+id/view3"
+                android:layout_alignEnd="@+id/view3" />
+
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:id="@+id/imageButton3"
+                android:background="@drawable/active_managebooking"
+                android:layout_below="@+id/view2"
+                android:layout_alignLeft="@+id/imageButton"
+                android:layout_alignStart="@+id/imageButton" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="120dp"
+
+                android:background="#FFFFFF"
+                android:id="@+id/view21"
+                android:layout_alignParentBottom="true"
+                android:layout_alignTop="@+id/view1"
+                android:layout_alignLeft="@+id/view1"
+                android:layout_alignStart="@+id/view1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      முந்தைய \n    கேள்விகள்  "
+                android:id="@+id/textView5"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16sdp"
+
+                android:layout_below="@+id/imageButton3"
+                android:layout_alignRight="@+id/view2"
+                android:layout_alignEnd="@+id/view2" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageButton4"
+                android:background="@drawable/special"
+                android:layout_below="@+id/view3"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignStart="@+id/textView1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="மார்க் ஷீட்"
+                android:id="@+id/textView6"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_16sdp"
+                android:layout_below="@+id/imageButton4"
+                android:layout_alignLeft="@+id/imageButton4"
+                android:layout_alignStart="@+id/imageButton4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:textSize="@dimen/_20sdp"
+                android:text="وَمَنْ يَّكْسِبْ خَطِيْٓـــَٔةً اَوْ اِثْمًا ثُمَّ يَرْمِ بِهٖ بَرِيْٓــًٔـا فَقَدِ احْتَمَلَ بُهْتَانًا وَّاِثْمًا مُّبِيْنًا‏ ﻿﻿"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/imageButton"
+                android:layout_alignStart="@+id/imageButton" />
+
+        </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/shitstuff"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/drawermenu"
+        android:layout_marginTop="-24dp"
+        />
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+    </LinearLayout>

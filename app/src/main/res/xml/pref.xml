@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Settings" >
+        <SwitchPreference
+            android:key="checkBox"
+            android:summary="On/Off"
+            android:defaultValue="true"
+            android:title="நினைவூட்டும் நேரம் " />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Schedule Reminder" >
+        <Preference
+            android:key="btnDateFilter1"
+            android:title="நினைவூட்டும் நேரம் : 1 " />
+
+        <Preference
+            android:key="btnDateFilter2"
+            android:title="நினைவூட்டும் நேரம் : 2  " />
+
+        <Preference
+            android:key="btnDateFilter3"
+            android:title="நினைவூட்டும் நேரம் : 3  " />
+
+
+
+
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
